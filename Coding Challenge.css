@@ -1,0 +1,85 @@
+/* Font pagina */
+*{
+  font-family: "Poppins"
+}
+/* Immagine di sfondo */
+body{
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Contenitore trasparente */
+.contenitore{
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  width: 63%;
+  height: auto;
+  margin: 2% auto;
+  padding: 4% 5% 5% 5%;
+}
+/* Logo + Titolo */
+header{
+  text-align: center;
+  font-family: Arial;
+  color: #7fff00;
+}
+/* Logo */
+header > img{
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+}
+/* Titolo principale*/
+header h1{
+  margin: 0;
+}
+/* Pulsanti input */
+nav{
+  padding: 1% 0;
+  background-color: #7fff00;
+  text-align: center;
+}
+/* Sezione per i Monopattini */
+main article{
+  padding-top: 3%;
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+}
+/* Titolo dei Monopattini */
+.Monopattini{
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* Via dei Monopattini */
+.Via{
+  padding: 0% 0;
+}
+/* Simbolo della freccia prima della via */
+.Via:before{
+  content: "\21A6" ;
+}
+/* Impostazioni Batteria Generale */
+.Batteria{
+  display: inline-block;
+  height: 30px;
+  border-radius: 5px;
+}
+/* Lunghezza e colore di batterie specifiche */
+.Batteria.Gino22{
+  width: 35%;
+  background-color: orange;
+}
+
+.Batteria.Mike24{
+  width: 60%;
+  background-color: #7fff00;
+}
+
+.Batteria.Fede154{
+  width: 15%;
+  background-color: red;
+}
